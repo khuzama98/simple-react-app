@@ -1,5 +1,5 @@
 #this file is for travis-ci to tell it how to handle our project
-
+language: node
 sudo: required
 #this tells to give authority of sudo level
 
