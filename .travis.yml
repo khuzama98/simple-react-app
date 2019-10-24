@@ -10,7 +10,6 @@ services:
 before_install:
   - docker build -t khuzama98/simple-react-app -f Dockerfile.dev .
 
-
 script:
   - docker run khuzama98/simple-react-app npm run test -- --coverage
 #this tells to run test and -- --coverage is to tell npm to return the status code
