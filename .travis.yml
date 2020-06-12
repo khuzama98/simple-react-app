@@ -19,6 +19,9 @@ script:
 #of test and close itself otherwise npm won't closes it's self and stays open and
 #travis won't know did the test pass or fail
 
+before_deploy: "echo $AWS_ACCESS_KEY  ---  $AWS_SECRET_KEY"
+
+
 deploy:
   provider: elasticbeanstalk
   region: "ca-central-1"
