@@ -31,7 +31,6 @@ deploy:
   bucket_path: "workshop-ci-cd"
   on:
     branch: master
-  access_key_id:
-    secure: "AKIA2ZGIMX6UXGQYBZMI"
+  access_key_id: "AKIA2ZGIMX6UXGQYBZMI"
   secret_access_key:
     secure: "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"
